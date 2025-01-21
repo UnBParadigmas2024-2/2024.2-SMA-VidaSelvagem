@@ -88,9 +88,9 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Arthur José Nascimento de Lima | -- | -- | -- | 
 | Artur Seppa Reiman | -- | -- | -- | 
 | Augusto Duraes Camargo | -- | -- | -- | 
-| Breno Henrique de Souza | Documentação do Projeto, Manual de Uso do Projeto, Criação dos Agentes, Desenvolvimento das ações de Reprodução e Alimentação dos Agentes, Refatoração de algumas funções do projeto | Excelente | -- | 
+| Breno Henrique de Souza | Documentação do Projeto, Manual de Uso do Projeto, Criação dos Agentes, Desenvolvimento das ações de Reprodução e Alimentação dos Agentes, Refatoração de algumas funções do projeto | Excelente | [Definição dos Agentes](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/986108e46cf2d828c3e9750a9c1d1c93482652eb) | 
 | Edilberto Almeida Cantuaria | -- | -- | -- | 
-| Giulia Domingues de Alcantara | Documentação do Projeto, Manual de Instalação do Projeto, Criação dos Agentes, Desenvolvimento das ações de Reprodução e Alimentação dos Agentes, Criação da Main| Excelente |  [Documentação Inicial + Manual de Instalação](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/af12e596d8228c0e7ec80b20a4e16542bf4a0e44) | 
+| Giulia Domingues de Alcantara | Documentação do Projeto, Manual de Instalação do Projeto, Criação dos Agentes, Desenvolvimento das ações de Reprodução e Alimentação dos Agentes, Criação da Main| Excelente |  [Documentação Inicial + Manual de Instalação](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/af12e596d8228c0e7ec80b20a4e16542bf4a0e44); [Criação da Main](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/4b5d72f7187173a1eaa4a43e2c86521f7e36b5a4); [Definição dos Agentes](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/986108e46cf2d828c3e9750a9c1d1c93482652eb) | 
 | Guilherme Peixoto Lima | -- | -- | -- |  
 | Gustavo Barbosa de Oliveira | -- | -- | -- | 
 | Samuel Alves Sato | -- | -- | -- | 
