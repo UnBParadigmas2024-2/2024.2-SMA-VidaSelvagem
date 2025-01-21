@@ -84,6 +84,16 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 
 | Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) | Comprobatórios |
 | -- | -- | -- | -- |
+| Arthur Ferreira Rodrigues | -- | -- | -- | 
+| Arthur José Nascimento de Lima | -- | -- | -- | 
+| Artur Seppa Reiman | -- | -- | -- | 
+| Augusto Duraes Camargo | -- | -- | -- | 
+| Breno Henrique de Souza | Documentação do Projeto, Manual de Uso do Projeto, Criação dos Agentes, Desenvolvimento das ações de Reprodução e Alimentação dos Agentes, Refatoração de algumas funções do projeto | Excelente | -- | 
+| Edilberto Almeida Cantuaria | -- | -- | -- | 
+| Giulia Domingues de Alcantara | Documentação do Projeto, Manual de Instalação do Projeto, Criação dos Agentes, Desenvolvimento das ações de Reprodução e Alimentação dos Agentes, Criação da Main| Excelente |  [Documentação Inicial + Manual de Instalação](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/af12e596d8228c0e7ec80b20a4e16542bf4a0e44) | 
+| Guilherme Peixoto Lima | -- | -- | -- |  
+| Gustavo Barbosa de Oliveira | -- | -- | -- | 
+| Samuel Alves Sato | -- | -- | -- | 
 
 ## Outros
 
