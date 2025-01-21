@@ -4,7 +4,7 @@ class WildlifeAgent(Agent):
     def __init__(self, unique_id, model, agent_type):
         super().__init__(unique_id, model)
         self.energy = 10  # Energia inicial
-        self.agent_type = agent_type  # Tipo do agente (herbívoro, carnívoro, planta)
+        self.agent_type = agent_type  # Tipo do agente (herbívoro, carívoro, planta)
 
     def move(self):
         """Move o agente para uma célula vizinha."""
@@ -68,7 +68,7 @@ class Carnivore(WildlifeAgent):
         self.reproduction_energy_threshold = 15  # Energia mínima para reproduzir
 
     def step(self):
-        """Define o comportamento do carnívoro a cada etapa."""
+        """Define o comportamento do carívoro a cada etapa."""
         self.move()
         self.energy -= 1  # Perde energia ao se mover
 
@@ -100,5 +100,20 @@ class Plant(Agent):
     def __init__(self, unique_id, model):
         super().__init__(unique_id, model)
         self.agent_type = "Planta"
-        self.energy = None  # Energia fixa como "None" para indicar que plantas não têm energia.
 
+    def step(self):
+        """Plantas podem regenerar, com chance baseada no ambiente."""
+        if self.pos is None:  # Verificar se a posição está definida
+            return
+        
+        if self.random.random() < self.model.plant_regrowth_chance:
+            empty_cells = [
+                cell for cell in self.model.grid.get_neighborhood(self.pos, moore=True, include_center=False)
+                if self.model.grid.is_cell_empty(cell)
+            ]
+            if empty_cells:
+                new_position = self.random.choice(empty_cells)
+                new_plant = Plant(self.model.next_id(), self.model)
+                self.model.grid.place_agent(new_plant, new_position)
+                self.model.schedule.add(new_plant)
+                print(f"Nova planta cresceu na posição {new_position}.")
