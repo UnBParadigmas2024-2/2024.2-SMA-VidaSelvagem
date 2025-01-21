@@ -1,87 +1,107 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-
-**!! *Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(Paradigma)_(NomeDoProjeto)*. !!** 
-
-Paradigmas:
- - Funcional
- - Logico
- - SMA
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2023.2_G1_Logico_ProjetoRoteirosAereos*. !!**
- 
- (Apague esses comentários)
-
-# NomeDoProjeto
+# ParaDigaMais
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
-**Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: XX<br>
+**Nro do Grupo**: 01<br>
 **Paradigma**: SMA<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| 20/0069322  |  Samuel Alves Sato |
 
-## Sobre 
-Descreva o seu projeto em linhas gerais. 
-Use referências, links, que permitam conhecer um pouco mais sobre o projeto.
-Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no projeto.
+| Matrícula  | Aluno                          |
+| ---------- | ------------------------------ |
+| 20/0056981 | Arthur Ferreira Rodrigues      |
+| 19/0084600 | Arthur José Nascimento de Lima |
+| 19/0134224 | Artur Seppa Reiman             |
+| 19/0084731 | Augusto Duraes Camargo         |
+| 20/2015948 | Breno Henrique de Souza        |
+| 22/2014984 | Edilberto Almeida Cantuaria    |
+| 18/0121308 | Giulia Domingues de Alcantara  |
+| 17/0034941 | Guilherme Peixoto Lima         |
+| 18/0042041 | Gustavo Barbosa de Oliveira    |
+| 20/0069322 | Samuel Alves Sato              |
+
+## O que é um paradigma SMA
+
+O **paradigma de Sistemas Multiagentes (SMA)** é um modelo de programação que foca no desenvolvimento de sistemas compostos por múltiplos **agentes autônomos**, que interagem entre si e com o ambiente em que estão situados. Esses agentes são entidades computacionais que exibem as seguintes características principais: [1]
+
+1. **Autonomia**: Agentes tomam decisões e executam ações de forma independente, sem intervenção direta de outros agentes ou do ambiente. [1]
+2. **Reatividade**: Agentes percebem o ambiente ao seu redor e respondem às mudanças que ocorrem nele. [1]
+3. **Pró-atividade**: Agentes agem de forma orientada a objetivos, ou seja, não apenas reagem ao ambiente, mas também buscam cumprir metas específicas. [1]
+4. **Sociabilidade**: Agentes podem interagir com outros agentes ou sistemas para colaborar, competir ou coordenar ações em prol de um objetivo comum. [1]
+
+No contexto do paradigma SMA, os agentes podem ser organizados em **arquiteturas** específicas, como as reativas (baseadas em ações imediatas), deliberativas (planejam suas ações com base em metas) ou híbridas, que combinam essas abordagens. [1]
+
+O paradigma é amplamente utilizado em diversas áreas, como automação, gerenciamento de informações, telecomunicações, simulações, jogos e sistemas distribuídos, justamente por sua capacidade de lidar com sistemas complexos, dinâmicos e imprevisíveis. [1]
+
+Aprenda mais sobre o Paradigma SMA [aqui] - CORRIGIR
+
+## Sobre o Projeto
+
+O projeto consiste em criar um simulador de vida selvagem usando o framework MESA em Python. Ele adota o paradigma de Sistemas Multiagentes (SMA) para modelar a interação entre diferentes tipos de agentes (herbívoros, carnívoros e plantas) em um ambiente simulado. O objetivo é observar e analisar como os agentes interagem e sobrevivem ao longo do tempo, com um foco no equilíbrio ecológico e nos ciclos de vida.
+
+### Relação do Paradigma SMA com o Projeto
+
+O projeto do Simulador de Vida Selvagem está profundamente alinhado com o paradigma de Sistemas Multiagentes (SMA), que é uma abordagem da computação distribuída usada para modelar sistemas complexos compostos por múltiplos agentes autônomos. Esses agentes interagem entre si e com o ambiente, permitindo que comportamentos coletivos e dinâmicas emergentes sejam observados a partir de decisões locais e descentralizadas.
+
+No contexto do simulador, o SMA é aplicado para representar e gerenciar o ecossistema selvagem, onde diferentes tipos de agentes (como herbívoros, carnívoros e plantas) coexistem e interagem em um ambiente dinâmico. Abaixo, exploramos como o projeto se relaciona com os princípios fundamentais do paradigma SMA.
+
+### Por que optamos por um sistema de simulador de vida selvagem?
+
+Saiba mais sobre a escolha do projeto através [desse link] - CORRIGIR
 
 ## Screenshots
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
 
-## Instalação 
-**Linguagens**: Python3.7<br>
-**Tecnologias**: PADE<br>
+### Fluxograma do Projeto
+- CORRIGIR
 
-- pade
-- jinja2==3.0.3
-- itsdangerous==2.0.1
-- werkzeug==2.0.3
+- OBS: Para maior detalhamento de cada funcionalidade, acesse [esse link] - CORRIGIR
 
-`pip install -r requirements.txt`
+## Manual
 
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
-Gifs animados e outras ilustrações são bem-vindos!
+### Instalação
 
-## Uso 
+**Linguagens**: Python<br>
+**Tecnologias**: Sistema Operacional Linux, Framework MESA, VSCode, Terminal Linux/WSL<br>
 
-`pade start-runtime --port 20000 teste.py`
+- Para instalação do projeto, acesse [esse link](documentacao/passoapassoinstalacao.md) e leia o passo a passo.
 
-Explique como usar seu projeto.
-Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
-Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software.
+### Uso
+
+### Manual
+
+**Principais Comandos**: `python main.py` 
+
+#### Como usar o projeto
+
+- Para conseguir rodar o projeto, acesse [esse link] - CORRIGIR
 
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto.
-Procure: 
-(i) Introduzir o projeto;
-(ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
-(iii) Apresentar particularidades do Paradigma, da Linguagem, e das Tecnologias, e
-(iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
-OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
-TEMPO: +/- 15min
+
+Vídeo disponível no [link](https://youtu.be/W71J1-5DlYg).
 
 ## Participações
-Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
-|Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) | Comprobatórios (ex. links para commits)
-| -- | -- | -- | -- |
-| Fulano  |  Programação dos Fatos da Base de Conhecimento Lógica | Boa | Commit tal (com link)|
-| Samuel Sato | Documentação inicial | Boa | - |
 
-## Outros 
-Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
-(i) Lições Aprendidas;
-(ii) Percepções;
-(iii) Contribuições e Fragilidades, e
-(iV) Trabalhos Futuros.
+Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
+
+| Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) | Comprobatórios |
+| -- | -- | -- | -- |
+
+## Outros
+
+### Lições Aprendidas
+
+- 
+
+### Percepções
+
+- 
+
+### Contribuições e Fragilidades
+
+- 
+
+### Trabalhos Futuros
+
 
 ## Fontes
-Referencie, adequadamente, as referências utilizadas.
-Indique ainda sobre fontes de leitura complementares.
+
+[1] RAFAEL. **Introdução ao paradigma orientado a agentes**. DevMedia, 2013. Disponível em: <https://www.devmedia.com.br/introducao-ao-paradigma-orientado-a-agentes/28791>. Acesso em: 20 jan. 2025.
