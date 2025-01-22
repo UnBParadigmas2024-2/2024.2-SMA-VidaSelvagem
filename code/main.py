@@ -2,6 +2,7 @@ from mesa import Model
 from mesa.space import MultiGrid
 from mesa.time import RandomActivation
 from agents import Herbivore, Carnivore, Plant
+from actions import herbivore_step, carnivore_step, plant_step
 
 class WildlifeModel(Model):
     def __init__(self, width=10, height=10, initial_plants=5, plant_regrowth_chance=0.1):
@@ -31,6 +32,14 @@ class WildlifeModel(Model):
     def step(self):
         """Executa um passo do modelo."""
         self.schedule.step()
+        # Após a execução da agenda, executa a lógica do comportamento dos agentes
+        for agent in self.schedule.agents:
+            if isinstance(agent, Herbivore):
+                herbivore_step(agent)  # Chama a função que define o comportamento do herbívoro
+            elif isinstance(agent, Carnivore):
+                carnivore_step(agent)  # Chama a função que define o comportamento do carnívoro
+            elif isinstance(agent, Plant):
+                plant_step(agent)  # Chama a função que define o comportamento da planta
 
 if __name__ == "__main__":
     model = WildlifeModel(width=10, height=10, initial_plants=10, plant_regrowth_chance=0.2)
