@@ -18,5 +18,5 @@
 # Premissas
 
 - Cada ser vivo é um agente.
-- O objetivo de todo animal é se reproduzi, mas para isso precisa de ter energia.
-- Carnivoros -> Herbívoros -> Plantas. '->' (Se alimenta de)
+- O objetivo de todo animal é se reproduzir, mas, para isso, precisa ter energia.
+- Carnívoros -> Herbívoros -> Plantas. ('->' significa "se alimenta de")
