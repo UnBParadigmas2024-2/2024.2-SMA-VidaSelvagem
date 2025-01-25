@@ -17,7 +17,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Random;
 
-import sma.simulador.Coordenadas;
+import sma.simulador.mensagem.Coordenadas;
+import sma.simulador.mensagem.MensagemMovimento;
 
 public class MyInitialAgent extends Agent {
 
@@ -45,12 +46,14 @@ public class MyInitialAgent extends Agent {
                 if (mensagem != null) {
                     try {
 
-                        MensagemMovimento dados = (MensagemMovimento) mensagem.getContentObject();
+
 
                         if (mensagem.getPerformative() == ACLMessage.REQUEST) {
+                            Coordenadas dados = (Coordenadas) mensagem.getContentObject();
                             matarAgente(dados);
                         }
                         else{
+                            MensagemMovimento dados = (MensagemMovimento) mensagem.getContentObject();
                             moverAgente(dados);
                         }
 
@@ -65,10 +68,10 @@ public class MyInitialAgent extends Agent {
         });
     }
 
-    private void matarAgente(MensagemMovimento mensagem){
-        String nome = mensagem.getNomeAgenteOrigem();
-        int x = mensagem.getxAntigo();
-        int y = mensagem.getyAntigo();
+    private void matarAgente(Coordenadas mensagem){
+        String nome = mensagem.getNomeAgente();
+        int x = mensagem.getX();
+        int y = mensagem.getY();
 
         System.out.println(nome + " morto");
         casas[x][y].setNomeAgent(null);
@@ -107,12 +110,12 @@ public class MyInitialAgent extends Agent {
     }
 
     private void removeUltimoCheiro(String nomeAgente){
-        Optional<Coordenadas> coordenadas = coordenadaCheiroList.stream().filter(f -> f.nomeAgente.equals(nomeAgente)).findFirst();
+        Optional<Coordenadas> coordenadas = coordenadaCheiroList.stream().filter(f -> f.getNomeAgente().equals(nomeAgente)).findFirst();
 
         if(coordenadas.isPresent()){
             var temp = coordenadas.get();
             coordenadaCheiroList.remove(coordenadas.get());
-            casas[temp.x][temp.y].setBackground(Color.white);
+            casas[temp.getX()][temp.getY()].setBackground(Color.white);
         }
 
     }

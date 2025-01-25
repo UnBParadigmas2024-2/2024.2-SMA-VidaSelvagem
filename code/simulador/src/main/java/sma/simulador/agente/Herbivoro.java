@@ -1,14 +1,8 @@
 package sma.simulador.agente;
 
 import jade.core.behaviours.TickerBehaviour;
-import jade.lang.acl.ACLMessage;
-import sma.simulador.Constantes;
-import sma.simulador.MensagemMovimento;
-import sma.simulador.MyInitialAgent;
 import sma.simulador.TipoSer;
 import sma.simulador.abstracao.Animal;
-
-import java.io.IOException;
 
 public class Herbivoro extends Animal {
 

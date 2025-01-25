@@ -2,7 +2,8 @@ package sma.simulador.abstracao;
 
 import jade.lang.acl.ACLMessage;
 import sma.simulador.Constantes;
-import sma.simulador.MensagemMovimento;
+import sma.simulador.mensagem.Coordenadas;
+import sma.simulador.mensagem.MensagemMovimento;
 import sma.simulador.MyInitialAgent;
 
 import java.io.IOException;
@@ -50,7 +51,7 @@ public abstract class Animal extends SerVivo {
             if(this.energia == 0){
                 ACLMessage mensagemMorte = new ACLMessage(ACLMessage.REQUEST);
                 mensagemMorte.addReceiver(getAID(MyInitialAgent.nomeAgente));
-                mensagemMorte.setContentObject(new MensagemMovimento(getLocalName(), getX(), getY(), getX(), getY()));
+                mensagemMorte.setContentObject(new Coordenadas(getLocalName(), getX(), getY()));
 
                 var container = getContainerController();
                 var agente = container.getAgent(getLocalName());

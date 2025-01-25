@@ -1,4 +1,4 @@
-package sma.simulador;
+package sma.simulador.mensagem;
 
 import jade.util.leap.Serializable;
 
