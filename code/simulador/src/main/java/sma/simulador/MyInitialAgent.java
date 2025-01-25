@@ -41,11 +41,20 @@ public class MyInitialAgent extends Agent {
             @Override
             public void action() {
                 ACLMessage mensagem = receive();
+
                 if (mensagem != null) {
                     try {
+
                         MensagemMovimento dados = (MensagemMovimento) mensagem.getContentObject();
 
-                        moverAgente(dados);
+                        if (mensagem.getPerformative() == ACLMessage.REQUEST) {
+                            matarAgente(dados);
+                        }
+                        else{
+                            moverAgente(dados);
+                        }
+
+
                     } catch (UnreadableException e) {
                         throw new RuntimeException(e);
                     }
@@ -54,6 +63,16 @@ public class MyInitialAgent extends Agent {
                 }
             }
         });
+    }
+
+    private void matarAgente(MensagemMovimento mensagem){
+        String nome = mensagem.getNomeAgenteOrigem();
+        int x = mensagem.getxAntigo();
+        int y = mensagem.getyAntigo();
+
+        System.out.println(nome + " morto");
+        casas[x][y].setNomeAgent(null);
+        casas[x][y].setBackground(Color.BLACK);
     }
 
     private void moverAgente(MensagemMovimento dados){

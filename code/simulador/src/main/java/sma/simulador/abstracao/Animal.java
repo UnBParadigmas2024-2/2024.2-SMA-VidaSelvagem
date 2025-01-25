@@ -44,6 +44,23 @@ public abstract class Animal extends SerVivo {
 
             setX(novoX);
             setY(novoY);
+
+            this.energia--;
+
+            if(this.energia == 0){
+                ACLMessage mensagemMorte = new ACLMessage(ACLMessage.REQUEST);
+                mensagemMorte.addReceiver(getAID(MyInitialAgent.nomeAgente));
+                mensagemMorte.setContentObject(new MensagemMovimento(getLocalName(), getX(), getY(), getX(), getY()));
+
+                var container = getContainerController();
+                var agente = container.getAgent(getLocalName());
+
+                send(mensagemMorte);
+
+                agente.kill();
+
+            }
+
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

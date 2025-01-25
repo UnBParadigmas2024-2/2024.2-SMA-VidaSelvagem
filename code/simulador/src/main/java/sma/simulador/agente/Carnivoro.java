@@ -11,7 +11,7 @@ public class Carnivoro extends Animal {
 
     public Carnivoro(){
         this.tipoSerVivo = TipoSer.Carnivoro;
-        this.energia = 10;
+        this.energia = 15;
         this.energiaMinimaParaReproducao = 15;
     }
 
