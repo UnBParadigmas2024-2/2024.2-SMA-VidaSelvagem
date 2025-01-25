@@ -1,8 +1,6 @@
 package sma.simulador.abstracao;
 
-import jade.core.behaviours.CyclicBehaviour;
 import jade.lang.acl.ACLMessage;
-import jade.lang.acl.UnreadableException;
 import sma.simulador.Constantes;
 import sma.simulador.mensagem.Coordenadas;
 import sma.simulador.mensagem.MensagemMovimento;
@@ -45,26 +43,6 @@ public abstract class Animal extends SerVivo {
             mensagem.setContentObject(dado);
             send(mensagem);
 
-            // Espera pela resposta
-            // Verifica se há algum ser vivo onde ele chegou
-            addBehaviour(new CyclicBehaviour() {
-                @Override
-                public void action() {
-                    ACLMessage resposta = receive();
-                    if (resposta != null) {
-                        try {
-                            Coordenadas dados = (Coordenadas) resposta.getContentObject();
-
-                            System.out.println(getLocalName() + " Achei " + dados.getNomeAgente());
-
-                        } catch (UnreadableException e) {
-                            throw new RuntimeException(e);
-                        }
-                    } else {
-                        block();
-                    }
-                }
-            });
 
             setX(novoX);
             setY(novoY);
@@ -90,5 +68,5 @@ public abstract class Animal extends SerVivo {
         }
     }
 
-    protected abstract void comer();
+    protected abstract void comer(Coordenadas dados);
 }

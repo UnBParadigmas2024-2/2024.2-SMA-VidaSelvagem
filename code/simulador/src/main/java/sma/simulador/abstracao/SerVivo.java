@@ -23,6 +23,10 @@ public abstract class SerVivo extends Agent {
         return energia;
     }
 
+    public void setEnergia(int energia){
+        this.energia = energia;
+    }
+
     public TipoSer getTipoSerVivo() {
         return tipoSerVivo;
     }

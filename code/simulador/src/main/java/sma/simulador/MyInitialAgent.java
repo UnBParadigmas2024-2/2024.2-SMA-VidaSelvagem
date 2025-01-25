@@ -122,10 +122,6 @@ public class MyInitialAgent extends Agent {
     private void enviarInformacoesCasaParaAgente(Coordenadas agenteEncontrado, ACLMessage reposta) {
 
         try{
-            ContainerController container = getContainerController();
-            //ACLMessage mensagem = new ACLMessage(ACLMessage.INFORM);
-            //reposta.addReceiver(getAID(agenteOrigem));
-
             reposta.setContentObject(agenteEncontrado);
             send(reposta);
 
@@ -154,7 +150,7 @@ public class MyInitialAgent extends Agent {
 
         try{
             for(int i=0; i<Constantes.NUMERO_INICIAL_PLANTAS; i++){
-                String nome = "Planta " + i;
+                String nome = Constantes.PREFIXO_PLANTA  + i;
                 AgentController plantaController = container.createNewAgent(nome, Planta.class.getName(), null);
 
                 int x = random.nextInt(Constantes.DIMENSAO);
@@ -176,7 +172,7 @@ public class MyInitialAgent extends Agent {
             }
 
             for(int i=0; i<Constantes.NUMERO_INICIAL_HERBIVOROS; i++){
-                String nome = "Herbivoro " + i;
+                String nome = Constantes.PREFIXO_HERBIVORO + i;
 
                 int x = random.nextInt(Constantes.DIMENSAO);
                 int y = random.nextInt(Constantes.DIMENSAO);
@@ -197,7 +193,7 @@ public class MyInitialAgent extends Agent {
             }
 
             for(int i=0; i<Constantes.NUMERO_INICIAL_CARNIVOROS; i++){
-                String nome = "Carnivoro " + i;
+                String nome = Constantes.PREFIXO_CARNIVORO + i;
 
                 int x = random.nextInt(Constantes.DIMENSAO);
                 int y = random.nextInt(Constantes.DIMENSAO);
