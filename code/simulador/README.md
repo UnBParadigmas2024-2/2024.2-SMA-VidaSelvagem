@@ -14,3 +14,9 @@
 - Adicionar argumentos para rodar:
     - `-gui -localhost 127.0.0.1 -local-port 8082 jade.Boot;customAgent:sma.simulador.MyInitialAgent`
 
+
+# Premissas
+
+- Cada ser vivo é um agente.
+- O objetivo de todo animal é se reproduzi, mas para isso precisa de ter energia.
+- Carnivoros -> Herbívoros -> Plantas. '->' (Se alimenta de)
