@@ -8,10 +8,7 @@
 
 | Matrícula  | Aluno                          |
 | ---------- | ------------------------------ |
-| 20/0056981 | Arthur Ferreira Rodrigues      |
-| 19/0084600 | Arthur José Nascimento de Lima |
 | 19/0134224 | Artur Seppa Reiman             |
-| 19/0084731 | Augusto Duraes Camargo         |
 | 20/2015948 | Breno Henrique de Souza        |
 | 22/2014984 | Edilberto Almeida Cantuaria    |
 | 18/0121308 | Giulia Domingues de Alcantara  |
@@ -84,10 +81,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 
 | Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) | Comprobatórios |
 | -- | -- | -- | -- |
-| Arthur Ferreira Rodrigues | -- | -- | -- | 
-| Arthur José Nascimento de Lima | -- | -- | -- | 
 | Artur Seppa Reiman | -- | -- | -- | 
-| Augusto Duraes Camargo | -- | -- | -- | 
 | Breno Henrique de Souza | Manual de Uso do Projeto, Criação dos Agentes, Desenvolvimento das ações de Reprodução e Alimentação dos Agentes, Refatoração de algumas funções do projeto | Excelente | [Manual de Uso](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/35baa78a23a9a179e1ecc2df33a72787e9ed7630); [Definição dos Agentes](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/986108e46cf2d828c3e9750a9c1d1c93482652eb) | 
 | Edilberto Almeida Cantuaria | -- | -- | -- | 
 | Giulia Domingues de Alcantara | Documentação do Projeto, Manual de Instalação do Projeto, Criação dos Agentes, Desenvolvimento das ações de Reprodução e Alimentação dos Agentes, Criação da Main| Excelente |  [Documentação Inicial + Manual de Instalação](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/af12e596d8228c0e7ec80b20a4e16542bf4a0e44); [Criação da Main](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/4b5d72f7187173a1eaa4a43e2c86521f7e36b5a4); [Definição dos Agentes](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/986108e46cf2d828c3e9750a9c1d1c93482652eb) | 
