@@ -1,7 +1,14 @@
 package sma.simulador.agente;
 
+import jade.core.behaviours.TickerBehaviour;
+import jade.lang.acl.ACLMessage;
+import sma.simulador.Constantes;
+import sma.simulador.MensagemMovimento;
+import sma.simulador.MyInitialAgent;
 import sma.simulador.TipoSer;
 import sma.simulador.abstracao.Animal;
+
+import java.io.IOException;
 
 public class Herbivoro extends Animal {
 
@@ -13,6 +20,24 @@ public class Herbivoro extends Animal {
 
     @Override
     public void setup(){
-        System.out.println("Carnivoro iniciado");
+
+        Object[] args = getArguments();
+        //setNome((String) args[0]);
+        this.setX((int) args[1]);
+        this.setY((int) args[2]);
+
+        System.out.println("Herbívoro iniciado " + this.getX() + " " + this.getY());
+
+        addBehaviour(new TickerBehaviour(this, 500) { // 1 segundos
+            @Override
+            protected void onTick() {
+                try {
+                    andar();
+                } catch (Exception e) {
+                    throw new RuntimeException(e);
+                }
+
+            }
+        });
     }
 }
