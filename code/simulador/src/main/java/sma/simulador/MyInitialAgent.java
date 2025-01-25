@@ -6,12 +6,14 @@ import jade.lang.acl.ACLMessage;
 import jade.lang.acl.UnreadableException;
 import jade.wrapper.AgentController;
 import jade.wrapper.ContainerController;
+import jade.wrapper.ControllerException;
 import sma.simulador.agente.Carnivoro;
 import sma.simulador.agente.Herbivoro;
 import sma.simulador.agente.Planta;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -46,15 +48,13 @@ public class MyInitialAgent extends Agent {
                 if (mensagem != null) {
                     try {
 
-
-
                         if (mensagem.getPerformative() == ACLMessage.REQUEST) {
                             Coordenadas dados = (Coordenadas) mensagem.getContentObject();
                             matarAgente(dados);
                         }
                         else{
                             MensagemMovimento dados = (MensagemMovimento) mensagem.getContentObject();
-                            moverAgente(dados);
+                            moverAgente(dados, mensagem);
                         }
 
 
@@ -78,7 +78,7 @@ public class MyInitialAgent extends Agent {
         casas[x][y].setBackground(Color.BLACK);
     }
 
-    private void moverAgente(MensagemMovimento dados){
+    private void moverAgente(MensagemMovimento dados, ACLMessage msg ){
 
         String nome = dados.getNomeAgenteOrigem();
         int xAntigo = dados.getxAntigo();
@@ -91,8 +91,18 @@ public class MyInitialAgent extends Agent {
         if(coordenadaCheiroList.size() > 25 && herbivoro)
             removeUltimoCheiro(nome);
 
-        casas[xAntigo][yAntigo].setNomeAgent(null);
+
+        if(casas[xNovo][yNovo].getNomeAgent() != null){
+            if(!nome.equals(casas[xNovo][yNovo].getNomeAgent())) {
+                Coordenadas coordenadas = new Coordenadas(casas[xNovo][yNovo].getNomeAgent(), xNovo, yNovo);
+                ACLMessage resposta = msg.createReply();
+
+                enviarInformacoesCasaParaAgente(coordenadas, resposta);
+            }
+        }
+
         casas[xNovo][yNovo].setNomeAgent(nome);
+        casas[xAntigo][yAntigo].setNomeAgent(null);
 
         if(herbivoro){
             //Adicionar rastro de cheiro
@@ -107,6 +117,21 @@ public class MyInitialAgent extends Agent {
         casas[xAntigo][yAntigo].setBackground(Color.white);
         casas[xNovo][yNovo].setBackground(Color.red);
 
+    }
+
+    private void enviarInformacoesCasaParaAgente(Coordenadas agenteEncontrado, ACLMessage reposta) {
+
+        try{
+            ContainerController container = getContainerController();
+            //ACLMessage mensagem = new ACLMessage(ACLMessage.INFORM);
+            //reposta.addReceiver(getAID(agenteOrigem));
+
+            reposta.setContentObject(agenteEncontrado);
+            send(reposta);
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     private void removeUltimoCheiro(String nomeAgente){

@@ -16,7 +16,7 @@ public class Herbivoro extends Animal {
     public void setup(){
 
         Object[] args = getArguments();
-        //setNome((String) args[0]);
+
         this.setX((int) args[1]);
         this.setY((int) args[2]);
 
@@ -30,8 +30,12 @@ public class Herbivoro extends Animal {
                 } catch (Exception e) {
                     throw new RuntimeException(e);
                 }
-
             }
         });
+    }
+
+    @Override
+    protected void comer() {
+
     }
 }

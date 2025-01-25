@@ -37,33 +37,10 @@ public class Carnivoro extends Animal {
         });
     }
 
-//    protected void andar() throws IOException {
-//        //mandar mensagem para mapa para andar
-//        // mapa vai alterar local do animal e vai deixar cheiro caso seja herbivoro
-//
-//        int modx = (int) (Math.random() * 3) - 1;
-//        int mody = (int) (Math.random() * 3) - 1;
-//
-//        int novoX = (getX() + modx) % Constantes.DIMENSAO;
-//        int novoY = (getY() + mody) % Constantes.DIMENSAO;
-//
-//        if(novoX < 0 || novoY < 0){
-//            novoX = getX();
-//            novoY = getY();
-//        }
-//
-//        try {
-//            MensagemMovimento dado = new MensagemMovimento(getLocalName(), getX(), getY(), novoX, novoY);
-//
-//            ACLMessage mensagem = new ACLMessage(ACLMessage.INFORM);
-//            mensagem.addReceiver(getAID(MyInitialAgent.nomeAgente));
-//            mensagem.setContentObject(dado);
-//            send(mensagem);
-//
-//            setX(novoX);
-//            setY(novoY);
-//        } catch (Exception e) {
-//            throw new RuntimeException(e);
-//        }
-//    }
+    @Override
+    protected void comer() {
+
+    }
+
+
 }
