@@ -87,7 +87,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Edilberto Almeida Cantuaria | -- | -- | -- | 
 | Giulia Domingues de Alcantara | Documentação do Projeto, Manual de Instalação do Projeto, Criação dos Agentes, Desenvolvimento das ações de Reprodução e Alimentação dos Agentes, Criação da Main| Excelente |  [Documentação Inicial + Manual de Instalação](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/af12e596d8228c0e7ec80b20a4e16542bf4a0e44); [Criação da Main](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/4b5d72f7187173a1eaa4a43e2c86521f7e36b5a4); [Definição dos Agentes](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/986108e46cf2d828c3e9750a9c1d1c93482652eb) | 
 | Guilherme Peixoto Lima | -- | -- | -- |  
-| Gustavo Barbosa de Oliveira | -- | -- | -- | 
+| Gustavo Barbosa de Oliveira | Adição de premissas para criação do projeto; Matar agente caso energia acabe; Documentação| Boa | [Adição de premissas para criação do projeto](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/c57449ec90989057e57e8ac3e27effb79432ce10); [Matar agente caso energia acabe](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/4ebb44d4bb0d7945c6e3ffd189449ff88b4a4d96);[Adiciona Percepções](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/e468120cb93ca1ac3753702d73d5ef83f5031610); [Adiciona Lições Aprendidas](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/7ed23d53b21a79c80fe5bb89deb10322ed87b1c3)| 
 | Samuel Alves Sato | -- | -- | -- | 
 
 ## Outros
