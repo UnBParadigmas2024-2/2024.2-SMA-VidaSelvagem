@@ -12,7 +12,7 @@
 
 - Definir como classe main `jade.Boot`
 - Adicionar argumentos para rodar:
-    - `-gui -localhost 127.0.0.1 -local-port 8082 jade.Boot;customAgent:sma.simulador.MyInitialAgent`
+    - `-gui -localhost 127.0.0.1 -local-port 8082 jade.Boot;MyInitialAgent:sma.simulador.MyInitialAgent`
 
 
 # Premissas
