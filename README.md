@@ -6,15 +6,15 @@
 
 ## Alunos
 
-| Matrícula  | Aluno                          |
-| ---------- | ------------------------------ |
-| 19/0134224 | Artur Seppa Reiman             |
-| 20/2015948 | Breno Henrique de Souza        |
-| 22/2014984 | Edilberto Almeida Cantuaria    |
-| 18/0121308 | Giulia Domingues de Alcantara  |
-| 17/0034941 | Guilherme Peixoto Lima         |
-| 18/0042041 | Gustavo Barbosa de Oliveira    |
-| 20/0069322 | Samuel Alves Sato              |
+| Matrícula  | Aluno                         |
+| ---------- | ----------------------------- |
+| 19/0134224 | Artur Seppa Reiman            |
+| 20/2015948 | Breno Henrique de Souza       |
+| 22/2014984 | Edilberto Almeida Cantuaria   |
+| 18/0121308 | Giulia Domingues de Alcantara |
+| 17/0034941 | Guilherme Peixoto Lima        |
+| 18/0042041 | Gustavo Barbosa de Oliveira   |
+| 20/0069322 | Samuel Alves Sato             |
 
 ## O que é um paradigma SMA
 
@@ -48,6 +48,7 @@ Saiba mais sobre a escolha do projeto através [desse link] - CORRIGIR
 ## Screenshots
 
 ### Fluxograma do Projeto
+
 - CORRIGIR
 
 - OBS: Para maior detalhamento de cada funcionalidade, acesse [esse link] - CORRIGIR
@@ -65,7 +66,7 @@ Saiba mais sobre a escolha do projeto através [desse link] - CORRIGIR
 
 ### Manual
 
-**Principais Comandos**: `python main.py` 
+**Principais Comandos**: `python main.py`
 
 #### Como usar o projeto
 
@@ -93,18 +94,29 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 
 ### Lições Aprendidas
 
-- 
+-
 
 ### Percepções
 
-- 
+A experiência com o desenvolvimento do projeto utilizando o paradigma de Sistemas Multiagentes revelou desafios aprendizados. Entre as principais percepções, destacamos:
+
+1. Dificuldades no Setup do Ambiente: A configuração inicial do ambiente de desenvolvimento foi um dos maiores desafios enfrentados. Problemas com dependências do PADE e compatibilidade com o sistema operacional atrasaram significativamente o início do trabalho. Esse atraso impactou o cronograma geral e exigiu adaptações nas entregas previstas.
+
+2. Curva de Aprendizado Elevada: O paradigma SMA, embora poderoso e promissor, apresentou uma curva de aprendizado considerável. Compreender as nuances da autonomia, reatividade, pró-atividade e sociabilidade dos agentes demandou mais tempo e esforço do que inicialmente planejado.
+
+3. Coordenação e Divisão de Tarefas: Gerir um projeto em grupo com diversas tarefas simultâneas também se mostrou complicado.
+
+4. Integração dos Componentes: Outro ponto desafiador foi garantir que as contribuições individuais convergissem para um sistema coeso e funcional. A integração das funcionalidades desenvolvidas separadamente gerou retrabalho em algumas partes do projeto.
+
+Essa jornada reforçou a importância do planejamento inicial, da comunicação clara e da colaboração ativa em projetos complexos. Embora o caminho tenha sido repleto de desafios, ele também proporcionou aprendizado para todos os membros do grupo.
+
+-
 
 ### Contribuições e Fragilidades
 
-- 
+-
 
 ### Trabalhos Futuros
-
 
 ## Fontes
 
