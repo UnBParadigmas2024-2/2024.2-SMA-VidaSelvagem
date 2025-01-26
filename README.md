@@ -94,7 +94,12 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 
 ### Lições Aprendidas
 
--
+1. Importância do Planejamento Detalhado: Subestimar a complexidade inicial do paradigma SMA e das tecnologias utilizadas resultou em atrasos que poderiam ter sido mitigados com um planejamento mais detalhado e realista. 
+
+2. Configuração do Ambiente como Etapa Crítica: O setup inicial do ambiente foi um ponto crítico e evidenciou a importância de dedicar tempo para preparar e validar as ferramentas e dependências antes de iniciar o desenvolvimento. Documentar esse processo pode ajudar a reduzir atrasos futuros e facilitar o onboarding.
+
+3. Aprendizado Contínuo é Essencial: Trabalhar com um paradigma relativamente novo para a maioria dos integrantes reforçou a necessidade de estudos constantes e do compartilhamento de conhecimentos entre os membros.
+
 
 ### Percepções
 
@@ -109,8 +114,6 @@ A experiência com o desenvolvimento do projeto utilizando o paradigma de Sistem
 4. Integração dos Componentes: Outro ponto desafiador foi garantir que as contribuições individuais convergissem para um sistema coeso e funcional. A integração das funcionalidades desenvolvidas separadamente gerou retrabalho em algumas partes do projeto.
 
 Essa jornada reforçou a importância do planejamento inicial, da comunicação clara e da colaboração ativa em projetos complexos. Embora o caminho tenha sido repleto de desafios, ele também proporcionou aprendizado para todos os membros do grupo.
-
--
 
 ### Contribuições e Fragilidades
 
