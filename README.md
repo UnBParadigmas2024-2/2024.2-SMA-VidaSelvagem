@@ -47,11 +47,12 @@ Saiba mais sobre a escolha do projeto através [desse link] - CORRIGIR
 
 ## Screenshots
 
+
 ### Fluxograma do Projeto
 
-- CORRIGIR
+![fluxo vida animal](./documentacao/assets/flow_vida_animal.png)
 
-- OBS: Para maior detalhamento de cada funcionalidade, acesse [esse link] - CORRIGIR
+- OBS: Para maior detalhamento de cada funcionalidade, acesse [esse link](documentacao/passoapasso-uso.md)
 
 ## Manual
 
