@@ -126,7 +126,7 @@ Essa jornada reforçou a importância do planejamento inicial, da comunicação 
 
 **Aprendizado Coletivo:** A experiência evidenciou a importância de compartilhar conhecimento técnico entre os membros, o que ajudou a superar dificuldades relacionadas à curva de aprendizado do paradigma SMA.
 
-###### Fragilidades
+#### Fragilidades
 **Planejamento e Cronograma:** A subestimação inicial da complexidade do paradigma SMA e da configuração do ambiente resultou em atrasos e retrabalho, evidenciando a necessidade de um planejamento mais detalhado.
 
 **Integração de Componentes:** O relato de retrabalhos durante a integração dos componentes do projeto mostra que a coordenação e validação das funcionalidades individuais precisavam ser mais bem estruturadas.
