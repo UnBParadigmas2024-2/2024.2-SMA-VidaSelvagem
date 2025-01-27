@@ -33,9 +33,8 @@ Aprenda mais sobre o Paradigma SMA [aqui](https://github.com/UnBParadigmas2024-2
 
 ## Sobre o Projeto
 
-O projeto consiste em criar um simulador de vida selvagem usando o framework JADE em Java. Ele adota o paradigma de Sistemas Multiagentes (SMA) para modelar a interação entre diferentes tipos de agentes (herbívoros, carnívoros e plantas) em um ambiente simulado. O objetivo é observar e analisar como os agentes interagem e sobrevivem ao longo do tempo, com um foco no equilíbrio ecológico e nos ciclos de vida.
+O projeto consiste em criar um simulador de vida selvagem usando o framework MESA em Python. Ele adota o paradigma de Sistemas Multiagentes (SMA) para modelar a interação entre diferentes tipos de agentes (herbívoros, carnívoros e plantas) em um ambiente simulado. O objetivo é observar e analisar como os agentes interagem e sobrevivem ao longo do tempo, com um foco no equilíbrio ecológico e nos ciclos de vida.
 
-Para criação da interface utilizamos Java Swing, inspirados pelo projeto [Grid_Simulation](https://github.com/UnBParadigmas2021-2/2021.2_G1_SMA_Grid_Simulation)
 ### Relação do Paradigma SMA com o Projeto
 
 O projeto do Simulador de Vida Selvagem está profundamente alinhado com o paradigma de Sistemas Multiagentes (SMA), que é uma abordagem da computação distribuída usada para modelar sistemas complexos compostos por múltiplos agentes autônomos. Esses agentes interagem entre si e com o ambiente, permitindo que comportamentos coletivos e dinâmicas emergentes sejam observados a partir de decisões locais e descentralizadas.
@@ -56,10 +55,6 @@ O projeto de simulação de vida selvagem foi escolhido como objeto de estudo pa
 - OBS: Para maior detalhamento de cada funcionalidade, acesse [esse link](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/blob/main/documentacao/passoapasso-uso.md)
 
 ## Manual
-
-### Uso
-
-[Como executar o projeto](./documentacao/passoapasso-uso.md)
 
 ### Instalação
 
@@ -125,7 +120,7 @@ Essa jornada reforçou a importância do planejamento inicial, da comunicação 
 
 **Aprendizado Coletivo:** A experiência evidenciou a importância de compartilhar conhecimento técnico entre os membros, o que ajudou a superar dificuldades relacionadas à curva de aprendizado do paradigma SMA.
 
-###### Fragilidades
+#### Fragilidades
 **Planejamento e Cronograma:** A subestimação inicial da complexidade do paradigma SMA e da configuração do ambiente resultou em atrasos e retrabalho, evidenciando a necessidade de um planejamento mais detalhado.
 
 **Integração de Componentes:** O relato de retrabalhos durante a integração dos componentes do projeto mostra que a coordenação e validação das funcionalidades individuais precisavam ser mais bem estruturadas.
@@ -135,41 +130,16 @@ Essa jornada reforçou a importância do planejamento inicial, da comunicação 
 **Problemas no Setup do Ambiente:** A configuração inicial do ambiente, com dificuldades em dependências e compatibilidades, atrasou significativamente o trabalho, indicando que mais tempo deveria ter sido dedicado a essa etapa inicial.
 
 ### Trabalhos Futuros
-Os exemplos a seguir ilustram cenários de interação entre agentes inteligentes e seus ambientes. Cada caso demonstra como agentes podem se comunicar e colaborar, ajustando suas ações em resposta às mudanças no ambiente para alcançar objetivos específicos.
-1. **Gerenciamento de Tráfego Urbano**
-- **Agentes**: Semáforos inteligentes, sensores de tráfego, veículos conectados.
-- **Ambiente**: Ruas, cruzamentos e fluxo de veículos.
-- **Interação**: Semáforos ajustam seus tempos com base nos dados dos sensores para otimizar o fluxo de tráfego. Veículos conectados podem se comunicar com os semáforos para prever o tempo de espera.
+Os trabalhos futuros visam aprimorar os comportamentos dos agentes e a dinâmica do ecossistema, com foco em reprodução, predação e comunicação, conforme descrito a seguir:
 
-2. **Simulação de Evacuação em Emergências**
-- **Agentes**: Pessoas ou robôs simulados, socorristas virtuais.
-- **Ambiente**: Um edifício ou espaço público com múltiplas saídas e obstáculos.
-- **Interação**: Pessoas simuladas buscam rotas seguras, enquanto os socorristas orientam as evacuações. As decisões são adaptadas em tempo real conforme o ambiente (como incêndios ou bloqueios).
+1. **Adicionar comportamento dos agentes se reproduzirem**
+Incorporar a capacidade de reprodução dos agentes permitirá uma simulação mais realista e dinâmica, imitando ciclos de vida e expansão populacional presentes em ecossistemas reais. Esse comportamento poderá ser condicionado por fatores como idade, energia acumulada e disponibilidade de recursos no ambiente, introduzindo novos desafios relacionados ao equilíbrio populacional e à competição por sobrevivência.
 
-3. **Gerenciamento de Estoques em Logística**
-- **Agentes**: Robôs autônomos de armazém, como os usados pela Amazon, e sistemas de gerenciamento de estoque.
-- **Ambiente**: Depósito ou armazém com prateleiras e corredores.
-- **Interação**: Robôs comunicam-se para evitar colisões e dividir tarefas, otimizando o transporte de itens entre prateleiras e pontos de expedição.
+2. **Adicionar o comportamento de predadores rastrearem a presa pelo cheiro**
+A inclusão do rastreamento pelo cheiro como estratégia de predação aumentará a complexidade das interações entre predadores e presas. Predadores poderão identificar e seguir rastros deixados por presas, replicando comportamentos observados em diversas espécies no mundo real. Essa funcionalidade exigirá a modelagem de novos mecanismos de disseminação e dissipação de odores no ambiente, além da adaptação da inteligência dos agentes predadores para utilizar essas informações.
 
-4. **Jogos de Estratégia e RPGs**
-- **Agentes**: Personagens não jogáveis (NPCs), como inimigos ou aliados.
-- **Ambiente**: O mapa do jogo, com terrenos, obstáculos e recursos.
-- **Interação**: NPCs colaboram ou competem com o jogador. Por exemplo, inimigos podem formar alianças para atacar, enquanto aliados ajudam o jogador em missões.
-
-5. **Sistema de Energia Inteligente (Smart Grid)**
-- **Agentes**: Consumidores, geradores de energia (usinas, painéis solares) e sistemas de controle.
-- **Ambiente**: Rede elétrica, incluindo infraestrutura de distribuição e medição.
-- **Interação**: Geradores e consumidores ajustam o fornecimento e consumo de energia com base nas condições da rede, otimizando eficiência e reduzindo desperdícios.
-
-6. **Robótica Cooperativa**
-- **Agentes**: Vários robôs, como drones ou robôs terrestres.
-- **Ambiente**: Espaços internos (fábricas) ou externos (áreas de resgate).
-- **Interação**: Os robôs compartilham informações para completar uma tarefa, como mapear uma área desconhecida ou buscar vítimas em uma zona de desastre.
-
-7. **E-Commerce e Negociação Automática**
-- **Agentes**: Consumidores simulados, vendedores e intermediários.
-- **Ambiente**: Plataforma de e-commerce ou sistema de leilões.
-- **Interação**: Agentes negociam preços, prazos de entrega e condições de pagamento de maneira automática e adaptativa, otimizando os interesses de seus usuários.
+3. **Ajustar erros de comunicação entre agentes e ecossistemas**
+Resolver inconsistências e aprimorar a comunicação entre agentes e o ecossistema para garantir que os comportamentos implementados reflitam as condições ambientais de forma precisa. Uma das prioridades é lidar com situações em que agentes tenham morrido, eliminando inconsistências como mensagens ou interações geradas por agentes inexistentes. Esse ajuste permitirá que o ecossistema reconheça e reflita com maior precisão o estado atual de seus componentes, evitando erros que possam comprometer a dinâmica da simulação. Outras melhorias podem incluir ajustes nas trocas de informações, como percepção de mudanças ambientais, eventos em tempo real e coordenação de ações coletivas. 
 
 
 ## Fontes
