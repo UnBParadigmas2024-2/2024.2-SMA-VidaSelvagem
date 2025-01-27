@@ -1,8 +1,5 @@
 # Passo a Passo para Instalação do Projeto
 
-# Guia de Instalação e Configuração
-# Guia de Instalação e Configuração
-
 ## 1. Instalação do Java
 
 1. Baixe o JDK (Java Development Kit) diretamente do site oficial da Oracle ou de uma distribuição open source, como o OpenJDK.
