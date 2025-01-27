@@ -1,3 +1,4 @@
+
 # ParaDigaMais
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
@@ -33,8 +34,9 @@ Aprenda mais sobre o Paradigma SMA [aqui](https://github.com/UnBParadigmas2024-2
 
 ## Sobre o Projeto
 
-O projeto consiste em criar um simulador de vida selvagem usando o framework MESA em Python. Ele adota o paradigma de Sistemas Multiagentes (SMA) para modelar a interação entre diferentes tipos de agentes (herbívoros, carnívoros e plantas) em um ambiente simulado. O objetivo é observar e analisar como os agentes interagem e sobrevivem ao longo do tempo, com um foco no equilíbrio ecológico e nos ciclos de vida.
+O projeto consiste em criar um simulador de vida selvagem usando o framework JADE em Java. Ele adota o paradigma de Sistemas Multiagentes (SMA) para modelar a interação entre diferentes tipos de agentes (herbívoros, carnívoros e plantas) em um ambiente simulado. O objetivo é observar e analisar como os agentes interagem e sobrevivem ao longo do tempo, com um foco no equilíbrio ecológico e nos ciclos de vida.
 
+Para criação da interface utilizamos Java Swing, inspirados pelo projeto [Grid_Simulation](https://github.com/UnBParadigmas2021-2/2021.2_G1_SMA_Grid_Simulation)
 ### Relação do Paradigma SMA com o Projeto
 
 O projeto do Simulador de Vida Selvagem está profundamente alinhado com o paradigma de Sistemas Multiagentes (SMA), que é uma abordagem da computação distribuída usada para modelar sistemas complexos compostos por múltiplos agentes autônomos. Esses agentes interagem entre si e com o ambiente, permitindo que comportamentos coletivos e dinâmicas emergentes sejam observados a partir de decisões locais e descentralizadas.
@@ -55,6 +57,10 @@ O projeto de simulação de vida selvagem foi escolhido como objeto de estudo pa
 - OBS: Para maior detalhamento de cada funcionalidade, acesse [esse link](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/blob/main/documentacao/passoapasso-uso.md)
 
 ## Manual
+
+### Uso
+
+[Como executar o projeto](./documentacao/passoapasso-uso.md)
 
 ### Instalação
 
@@ -120,7 +126,7 @@ Essa jornada reforçou a importância do planejamento inicial, da comunicação 
 
 **Aprendizado Coletivo:** A experiência evidenciou a importância de compartilhar conhecimento técnico entre os membros, o que ajudou a superar dificuldades relacionadas à curva de aprendizado do paradigma SMA.
 
-#### Fragilidades
+###### Fragilidades
 **Planejamento e Cronograma:** A subestimação inicial da complexidade do paradigma SMA e da configuração do ambiente resultou em atrasos e retrabalho, evidenciando a necessidade de um planejamento mais detalhado.
 
 **Integração de Componentes:** O relato de retrabalhos durante a integração dos componentes do projeto mostra que a coordenação e validação das funcionalidades individuais precisavam ser mais bem estruturadas.
