@@ -33,7 +33,7 @@
      
 ## 2. Instalação do JADE (Windows)
 
-1. Baixe o JADE (Java Agent DEvelopment Framework) do site oficial do projeto [jade]\(https\://jade.tilab.com/dl.php?file=JADE-all-4.6.0.zip) 
+1. Baixe o JADE (Java Agent DEvelopment Framework) do site oficial do projeto [jade](https\://jade.tilab.com/dl.php?file=JADE-all-4.6.0.zip) 
 2. Extraia o arquivo zip/compactado em um diretório de sua preferência, como `C:\jade`.
 3. Adicione os arquivos `.jar` do JADE ao **Classpath** do sistema:
    - No menu iniciar, procure por **Variáveis de Ambiente** e abra a configuração de **Editar variáveis de ambiente do sistema**.
