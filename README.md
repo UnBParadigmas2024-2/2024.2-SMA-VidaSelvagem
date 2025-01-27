@@ -33,8 +33,9 @@ Aprenda mais sobre o Paradigma SMA [aqui](https://github.com/UnBParadigmas2024-2
 
 ## Sobre o Projeto
 
-O projeto consiste em criar um simulador de vida selvagem usando o framework MESA em Python. Ele adota o paradigma de Sistemas Multiagentes (SMA) para modelar a interação entre diferentes tipos de agentes (herbívoros, carnívoros e plantas) em um ambiente simulado. O objetivo é observar e analisar como os agentes interagem e sobrevivem ao longo do tempo, com um foco no equilíbrio ecológico e nos ciclos de vida.
+O projeto consiste em criar um simulador de vida selvagem usando o framework JADE em Java. Ele adota o paradigma de Sistemas Multiagentes (SMA) para modelar a interação entre diferentes tipos de agentes (herbívoros, carnívoros e plantas) em um ambiente simulado. O objetivo é observar e analisar como os agentes interagem e sobrevivem ao longo do tempo, com um foco no equilíbrio ecológico e nos ciclos de vida.
 
+Para criação da interface utilizamos Java Swing, inspirados pelo projeto [Grid_Simulation](https://github.com/UnBParadigmas2021-2/2021.2_G1_SMA_Grid_Simulation)
 ### Relação do Paradigma SMA com o Projeto
 
 O projeto do Simulador de Vida Selvagem está profundamente alinhado com o paradigma de Sistemas Multiagentes (SMA), que é uma abordagem da computação distribuída usada para modelar sistemas complexos compostos por múltiplos agentes autônomos. Esses agentes interagem entre si e com o ambiente, permitindo que comportamentos coletivos e dinâmicas emergentes sejam observados a partir de decisões locais e descentralizadas.
