@@ -10,7 +10,7 @@ git clone https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem.git
 
 ## Passo 2: Instalar o Ambiente
 
-Acesse [esse link](./passoapassoinstalacao.md) para maiores detalhes no processo de instalação
+Acesse [esse link](./passoapasso-instalar.md) para maiores detalhes no processo de instalação
 
 ## Passo 3: Utilizando o ambiente
 
