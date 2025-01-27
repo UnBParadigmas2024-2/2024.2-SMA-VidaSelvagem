@@ -29,7 +29,7 @@ No contexto do paradigma SMA, os agentes podem ser organizados em **arquiteturas
 
 O paradigma é amplamente utilizado em diversas áreas, como automação, gerenciamento de informações, telecomunicações, simulações, jogos e sistemas distribuídos, justamente por sua capacidade de lidar com sistemas complexos, dinâmicos e imprevisíveis. [1]
 
-Aprenda mais sobre o Paradigma SMA [aqui] - CORRIGIR
+Aprenda mais sobre o Paradigma SMA [aqui](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/blob/main/documentacao/vantagensDesvantagens.md)
 
 ## Sobre o Projeto
 
@@ -52,7 +52,7 @@ Saiba mais sobre a escolha do projeto através [desse link] - CORRIGIR
 
 ![fluxo vida animal](./documentacao/assets/flow_vida_animal.png)
 
-- OBS: Para maior detalhamento de cada funcionalidade, acesse [esse link](documentacao/passoapasso-uso.md)
+- OBS: Para maior detalhamento de cada funcionalidade, acesse [esse link](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/blob/main/documentacao/passoapasso-uso.md)
 
 ## Manual
 
@@ -61,7 +61,7 @@ Saiba mais sobre a escolha do projeto através [desse link] - CORRIGIR
 **Linguagens**: Python<br>
 **Tecnologias**: Sistema Operacional Linux, Framework MESA, VSCode, Terminal Linux/WSL<br>
 
-- Para instalação do projeto, acesse [esse link](documentacao/passoapassoinstalacao.md) e leia o passo a passo.
+- Para instalação do projeto, acesse [esse link](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/blob/main/documentacao/passoapassoinstalacao.md) e leia o passo a passo.
 
 ### Uso
 
@@ -71,7 +71,7 @@ Saiba mais sobre a escolha do projeto através [desse link] - CORRIGIR
 
 #### Como usar o projeto
 
-- Para conseguir rodar o projeto, acesse [esse link] - CORRIGIR
+- Para conseguir rodar o projeto, acesse [esse link](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/blob/main/code/simulador/README.md)
 
 ## Vídeo
 
@@ -87,7 +87,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Breno Henrique de Souza | Manual de Uso do Projeto, Criação dos Agentes, Desenvolvimento das ações de Reprodução e Alimentação dos Agentes, Refatoração de algumas funções do projeto | Excelente | [Manual de Uso](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/35baa78a23a9a179e1ecc2df33a72787e9ed7630); [Definição dos Agentes](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/986108e46cf2d828c3e9750a9c1d1c93482652eb) | 
 | Edilberto Almeida Cantuaria | Contribuições e Fragilidades, Trabalhos Futuros, tentativa de mostrar configuração do ambiente em JADE | Boa | [Contribuições e Fragilidades](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/04c30bc40a58bba373e1c6491e21da2c14f079e7); [Trabalhos Futuros](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/0c1bb48011fd611bd3f26a29ce156ca536331b8e);   | 
 | Giulia Domingues de Alcantara | Documentação do Projeto, Manual de Instalação do Projeto, Criação dos Agentes, Desenvolvimento das ações de Reprodução e Alimentação dos Agentes, Criação da Main| Excelente |  [Documentação Inicial + Manual de Instalação](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/af12e596d8228c0e7ec80b20a4e16542bf4a0e44); [Criação da Main](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/4b5d72f7187173a1eaa4a43e2c86521f7e36b5a4); [Definição dos Agentes](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/986108e46cf2d828c3e9750a9c1d1c93482652eb) | 
-| Guilherme Peixoto Lima | -- | -- | -- |  
+| Guilherme Peixoto Lima |Fluxo do projeto, passo a passo, correção de links| Boa | [Fluxo do projeto](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/c42c262cf5715e86c1e689d7c82d5fb5d4aa7bef)  [passo a passo](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/93484cd64b6dc30fa3f7a1896c057e26936227b2)|  
 | Gustavo Barbosa de Oliveira | Adição de premissas para criação do projeto; Matar agente caso energia acabe; Documentação| Boa | [Adição de premissas para criação do projeto](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/c57449ec90989057e57e8ac3e27effb79432ce10); [Matar agente caso energia acabe](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/4ebb44d4bb0d7945c6e3ffd189449ff88b4a4d96);[Adiciona Percepções](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/e468120cb93ca1ac3753702d73d5ef83f5031610); [Adiciona Lições Aprendidas](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/commit/7ed23d53b21a79c80fe5bb89deb10322ed87b1c3)| 
 | Samuel Alves Sato | -- | -- | -- | 
 
