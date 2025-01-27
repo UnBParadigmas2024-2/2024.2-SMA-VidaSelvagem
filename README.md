@@ -43,7 +43,7 @@ No contexto do simulador, o SMA é aplicado para representar e gerenciar o ecoss
 
 ### Por que optamos por um sistema de simulador de vida selvagem?
 
-Saiba mais sobre a escolha do projeto através [desse link] - CORRIGIR
+O projeto de simulação de vida selvagem foi escolhido como objeto de estudo para agentes autônomos utilizando a plataforma Java JADE devido à sua capacidade de representar de forma realista e dinâmica o comportamento de agentes em um ambiente complexo e interdependente. Este tipo de simulação permite modelar interações naturais, como a busca por recursos, predadores e presas.
 
 ## Screenshots
 
@@ -58,16 +58,11 @@ Saiba mais sobre a escolha do projeto através [desse link] - CORRIGIR
 
 ### Instalação
 
-**Linguagens**: Python<br>
-**Tecnologias**: Sistema Operacional Linux, Framework MESA, VSCode, Terminal Linux/WSL<br>
+**Linguagens**: Java<br>
+**Tecnologias**: Sistema Operacional Linux, Framework Jade, VSCode, IDE Intellij ou Eclipse<br>
 
 - Para instalação do projeto, acesse [esse link](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/blob/main/documentacao/passoapassoinstalacao.md) e leia o passo a passo.
 
-### Uso
-
-### Manual
-
-**Principais Comandos**: `python main.py`
 
 #### Como usar o projeto
 
