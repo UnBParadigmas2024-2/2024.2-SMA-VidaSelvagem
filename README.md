@@ -122,18 +122,18 @@ Essa jornada reforçou a importância do planejamento inicial, da comunicação 
 #### Contribuições
 - **Alinhamento ao Paradigma SMA:** O projeto se passa em um contexto real para aplicar os conceitos centrais do paradigma SMA, como autonomia, reatividade e pró-atividade dos agentes. A criação do simulador permitiu observar dinâmicas emergentes e comportamentos complexos, atendendo ao objetivo inicial de modelar a vida selvagem.
 
-**Distribuição de Tarefas:** Os membros do grupo que contribuíram de forma ativa (como Breno, Giulia e Gustavo) desempenharam papéis significativos, tanto no desenvolvimento técnico quanto na documentação, o que foi essencial para o progresso do projeto.
+- **Distribuição de Tarefas:** Os membros do grupo que contribuíram de forma ativa (como Breno, Giulia e Gustavo) desempenharam papéis significativos, tanto no desenvolvimento técnico quanto na documentação, o que foi essencial para o progresso do projeto.
 
-**Aprendizado Coletivo:** A experiência evidenciou a importância de compartilhar conhecimento técnico entre os membros, o que ajudou a superar dificuldades relacionadas à curva de aprendizado do paradigma SMA.
+- **Aprendizado Coletivo:** A experiência evidenciou a importância de compartilhar conhecimento técnico entre os membros, o que ajudou a superar dificuldades relacionadas à curva de aprendizado do paradigma SMA.
 
 #### Fragilidades
-**Planejamento e Cronograma:** A subestimação inicial da complexidade do paradigma SMA e da configuração do ambiente resultou em atrasos e retrabalho, evidenciando a necessidade de um planejamento mais detalhado.
+- **Planejamento e Cronograma:** A subestimação inicial da complexidade do paradigma SMA e da configuração do ambiente resultou em atrasos e retrabalho, evidenciando a necessidade de um planejamento mais detalhado.
 
-**Integração de Componentes:** O relato de retrabalhos durante a integração dos componentes do projeto mostra que a coordenação e validação das funcionalidades individuais precisavam ser mais bem estruturadas.
+- **Integração de Componentes:** O relato de retrabalhos durante a integração dos componentes do projeto mostra que a coordenação e validação das funcionalidades individuais precisavam ser mais bem estruturadas.
 
-**Curva de Aprendizado:** A dificuldade enfrentada por muitos integrantes ao lidar com o paradigma SMA atrasou o progresso coletivo. Estratégias de estudo mais focadas poderiam ter sido implementadas desde o início.
+- **Curva de Aprendizado:** A dificuldade enfrentada por muitos integrantes ao lidar com o paradigma SMA atrasou o progresso coletivo. Estratégias de estudo mais focadas poderiam ter sido implementadas desde o início.
 
-**Problemas no Setup do Ambiente:** A configuração inicial do ambiente, com dificuldades em dependências e compatibilidades, atrasou significativamente o trabalho, indicando que mais tempo deveria ter sido dedicado a essa etapa inicial.
+- **Problemas no Setup do Ambiente:** A configuração inicial do ambiente, com dificuldades em dependências e compatibilidades, atrasou significativamente o trabalho, indicando que mais tempo deveria ter sido dedicado a essa etapa inicial.
 
 ### Trabalhos Futuros
 Os trabalhos futuros visam aprimorar os comportamentos dos agentes e a dinâmica do ecossistema, com foco em reprodução, predação e comunicação, conforme descrito a seguir:
