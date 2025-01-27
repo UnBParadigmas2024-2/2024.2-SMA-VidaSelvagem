@@ -12,14 +12,12 @@ import sma.simulador.TipoSer;
 import sma.simulador.abstracao.Animal;
 import sma.simulador.mensagem.Coordenadas;
 
-import java.io.IOException;
-
 public class Herbivoro extends Animal {
 
     public Herbivoro(){
         this.tipoSerVivo = TipoSer.Herbivoro;
         this.energia = 10;
-        this.energiaMinimaParaReproducao = 10;
+        this.energiaMinimaParaReproducao = Constantes.ENERGIA_INICIAL_HERBIVORO;
     }
 
     @Override

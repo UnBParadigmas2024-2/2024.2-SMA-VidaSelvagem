@@ -2,9 +2,9 @@ package sma.simulador.abstracao;
 
 import jade.lang.acl.ACLMessage;
 import sma.simulador.Constantes;
+import sma.simulador.MyInitialAgent;
 import sma.simulador.mensagem.Coordenadas;
 import sma.simulador.mensagem.MensagemMovimento;
-import sma.simulador.MyInitialAgent;
 
 import java.io.IOException;
 

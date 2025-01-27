@@ -6,14 +6,12 @@ import jade.lang.acl.ACLMessage;
 import jade.lang.acl.UnreadableException;
 import jade.wrapper.AgentController;
 import jade.wrapper.ContainerController;
-import jade.wrapper.ControllerException;
 import sma.simulador.Constantes;
 import sma.simulador.MyInitialAgent;
 import sma.simulador.TipoSer;
 import sma.simulador.abstracao.Animal;
 import sma.simulador.mensagem.Coordenadas;
 
-;import java.io.IOException;
 
 public class Carnivoro extends Animal {
 
@@ -21,7 +19,7 @@ public class Carnivoro extends Animal {
     public Carnivoro(){
         this.tipoSerVivo = TipoSer.Carnivoro;
         this.energia = 15;
-        this.energiaMinimaParaReproducao = 15;
+        this.energiaMinimaParaReproducao = Constantes.ENERGIA_INICIAL_CARNIVORO;
     }
 
     @Override

@@ -1,15 +1,16 @@
 package sma.simulador;
 
-import jade.core.*;
+import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
 import jade.lang.acl.ACLMessage;
 import jade.lang.acl.UnreadableException;
 import jade.wrapper.AgentController;
 import jade.wrapper.ContainerController;
-import jade.wrapper.ControllerException;
 import sma.simulador.agente.Carnivoro;
 import sma.simulador.agente.Herbivoro;
 import sma.simulador.agente.Planta;
+import sma.simulador.mensagem.Coordenadas;
+import sma.simulador.mensagem.MensagemMovimento;
 
 import javax.swing.*;
 import java.awt.*;
@@ -18,9 +19,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Random;
-
-import sma.simulador.mensagem.Coordenadas;
-import sma.simulador.mensagem.MensagemMovimento;
 
 public class MyInitialAgent extends Agent {
 
