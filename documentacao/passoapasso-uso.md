@@ -23,12 +23,20 @@ cd 2024.2-SMA-VidaSelvagem/
 Entre na pasta do código:
 
 ```bash
-cd code/
+cd code/simulador
 ```
+
+Abrir IDE no repositório `simulador`
+
+Com a IDE configurada com os parâmetros de execução ([passos a passo](./passoapasso-instalar.md)) e as bibliotecas do Jade importadas para o projeto (`jadeExamples.jar`, `jade.jar`, `commons-codec-1.3.jar`), basta rodar o projeto via IDE.
 
 
 
 # Exemplo de funcionalidade da simulação de vida selvagem
+
+- Retângulos vermelhos representam os carnívoros.
+- Retângulos laranja representam os herbívoros.
+- Retângulos verdes representam as plantas.
 
 
 1. Simulação vida selvagem:

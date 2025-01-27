@@ -56,6 +56,10 @@ O projeto de simulação de vida selvagem foi escolhido como objeto de estudo pa
 
 ## Manual
 
+### Uso
+
+[Como executar o projeto](./documentacao/passoapasso-uso.md)
+
 ### Instalação
 
 **Linguagens**: Java<br>
