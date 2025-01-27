@@ -61,7 +61,7 @@ O projeto de simulação de vida selvagem foi escolhido como objeto de estudo pa
 **Linguagens**: Java<br>
 **Tecnologias**: Sistema Operacional Linux, Framework Jade, VSCode, IDE Intellij ou Eclipse<br>
 
-- Para instalação do projeto, acesse [esse link](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/blob/main/documentacao/passoapassoinstalacao.md) e leia o passo a passo.
+- Para instalação do projeto, acesse [esse link](https://github.com/UnBParadigmas2024-2/2024.2-SMA-VidaSelvagem/blob/main/documentacao/passoapasso-instalar.md) e leia o passo a passo.
 
 
 #### Como usar o projeto
@@ -90,11 +90,11 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 
 ### Lições Aprendidas
 
-1. Importância do Planejamento Detalhado: Subestimar a complexidade inicial do paradigma SMA e das tecnologias utilizadas resultou em atrasos que poderiam ter sido mitigados com um planejamento mais detalhado e realista. 
+1. (Artur e Gustavo) - Importância do Planejamento Detalhado: Subestimar a complexidade inicial do paradigma SMA e das tecnologias utilizadas resultou em atrasos que poderiam ter sido mitigados com um planejamento mais detalhado e realista. 
 
-2. Configuração do Ambiente como Etapa Crítica: O setup inicial do ambiente foi um ponto crítico e evidenciou a importância de dedicar tempo para preparar e validar as ferramentas e dependências antes de iniciar o desenvolvimento. Documentar esse processo pode ajudar a reduzir atrasos futuros e facilitar o onboarding.
+2. (Guilherme e Samuel) - Configuração do Ambiente como Etapa Crítica: O setup inicial do ambiente foi um ponto crítico e evidenciou a importância de dedicar tempo para preparar e validar as ferramentas e dependências antes de iniciar o desenvolvimento. Documentar esse processo pode ajudar a reduzir atrasos futuros e facilitar o onboarding.
 
-3. Aprendizado Contínuo é Essencial: Trabalhar com um paradigma relativamente novo para a maioria dos integrantes reforçou a necessidade de estudos constantes e do compartilhamento de conhecimentos entre os membros.
+3. (Breno e Giulia) - Aprendizado Contínuo é Essencial: Trabalhar com um paradigma relativamente novo para a maioria dos integrantes reforçou a necessidade de estudos constantes e do compartilhamento de conhecimentos entre os membros.
 
 
 ### Percepções

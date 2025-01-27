@@ -1,9 +1,11 @@
-# Requisitos de sistema
+# Passo a Passo para Instalação do Projeto
+
+## Requisitos de sistema
 
 - JAVA 17 (JDK)
 - IDE (Eclipse ou Intellij)
 
-# Configurações para executar
+## Configurações para executar
 
 - Baixar arquivos e importar `.jar` do JADE como bibliotecas externas  
     - jadeExamples.jar  
