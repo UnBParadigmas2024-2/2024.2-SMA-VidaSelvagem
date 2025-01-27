@@ -96,7 +96,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 
 ### Lições Aprendidas
 
-1. (Artur e Gustavo) - Importância do Planejamento Detalhado: Subestimar a complexidade inicial do paradigma SMA e das tecnologias utilizadas resultou em atrasos que poderiam ter sido mitigados com um planejamento mais detalhado e realista. 
+1. (Artur, Edilberto e Gustavo) - Importância do Planejamento Detalhado: Subestimar a complexidade inicial do paradigma SMA e das tecnologias utilizadas resultou em atrasos que poderiam ter sido mitigados com um planejamento mais detalhado e realista. 
 
 2. (Guilherme e Samuel) - Configuração do Ambiente como Etapa Crítica: O setup inicial do ambiente foi um ponto crítico e evidenciou a importância de dedicar tempo para preparar e validar as ferramentas e dependências antes de iniciar o desenvolvimento. Documentar esse processo pode ajudar a reduzir atrasos futuros e facilitar o onboarding.
 
