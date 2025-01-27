@@ -121,6 +121,42 @@ Essa jornada reforçou a importância do planejamento inicial, da comunicação 
 -
 
 ### Trabalhos Futuros
+Os exemplos a seguir ilustram cenários de interação entre agentes inteligentes e seus ambientes. Cada caso demonstra como agentes podem se comunicar e colaborar, ajustando suas ações em resposta às mudanças no ambiente para alcançar objetivos específicos.
+1. **Gerenciamento de Tráfego Urbano**
+- **Agentes**: Semáforos inteligentes, sensores de tráfego, veículos conectados.
+- **Ambiente**: Ruas, cruzamentos e fluxo de veículos.
+- **Interação**: Semáforos ajustam seus tempos com base nos dados dos sensores para otimizar o fluxo de tráfego. Veículos conectados podem se comunicar com os semáforos para prever o tempo de espera.
+
+2. **Simulação de Evacuação em Emergências**
+- **Agentes**: Pessoas ou robôs simulados, socorristas virtuais.
+- **Ambiente**: Um edifício ou espaço público com múltiplas saídas e obstáculos.
+- **Interação**: Pessoas simuladas buscam rotas seguras, enquanto os socorristas orientam as evacuações. As decisões são adaptadas em tempo real conforme o ambiente (como incêndios ou bloqueios).
+
+3. **Gerenciamento de Estoques em Logística**
+- **Agentes**: Robôs autônomos de armazém, como os usados pela Amazon, e sistemas de gerenciamento de estoque.
+- **Ambiente**: Depósito ou armazém com prateleiras e corredores.
+- **Interação**: Robôs comunicam-se para evitar colisões e dividir tarefas, otimizando o transporte de itens entre prateleiras e pontos de expedição.
+
+4. **Jogos de Estratégia e RPGs**
+- **Agentes**: Personagens não jogáveis (NPCs), como inimigos ou aliados.
+- **Ambiente**: O mapa do jogo, com terrenos, obstáculos e recursos.
+- **Interação**: NPCs colaboram ou competem com o jogador. Por exemplo, inimigos podem formar alianças para atacar, enquanto aliados ajudam o jogador em missões.
+
+5. **Sistema de Energia Inteligente (Smart Grid)**
+- **Agentes**: Consumidores, geradores de energia (usinas, painéis solares) e sistemas de controle.
+- **Ambiente**: Rede elétrica, incluindo infraestrutura de distribuição e medição.
+- **Interação**: Geradores e consumidores ajustam o fornecimento e consumo de energia com base nas condições da rede, otimizando eficiência e reduzindo desperdícios.
+
+6. **Robótica Cooperativa**
+- **Agentes**: Vários robôs, como drones ou robôs terrestres.
+- **Ambiente**: Espaços internos (fábricas) ou externos (áreas de resgate).
+- **Interação**: Os robôs compartilham informações para completar uma tarefa, como mapear uma área desconhecida ou buscar vítimas em uma zona de desastre.
+
+7. **E-Commerce e Negociação Automática**
+- **Agentes**: Consumidores simulados, vendedores e intermediários.
+- **Ambiente**: Plataforma de e-commerce ou sistema de leilões.
+- **Interação**: Agentes negociam preços, prazos de entrega e condições de pagamento de maneira automática e adaptativa, otimizando os interesses de seus usuários.
+
 
 ## Fontes
 
